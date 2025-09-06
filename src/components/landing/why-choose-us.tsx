@@ -11,11 +11,11 @@ const features = [
   },
   {
     icon: <Users className="h-10 w-10 text-accent" />,
-    title: "Trusted by 500+ restaurants & hospitality brands",
+    title: "Trusted by 500+ corporates & architects",
   },
   {
     icon: <Gem className="h-10 w-10 text-accent" />,
-    title: "Premium materials built for style and durability",
+    title: "Premium materials & custom-built options",
   },
 ];
 
