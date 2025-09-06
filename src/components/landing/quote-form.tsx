@@ -27,10 +27,10 @@ const stepOneSchema = z.object({
 const stepTwoSchema = z.object({
   city: z.string().min(2, "Please enter a city."),
   requirement: z.enum([
-    "Dining Tables & Chairs",
-    "Booth & Sofa Seating",
-    "Outdoor & Patio Furniture",
-  
+    "Boardroom Elegance",
+    "Collaborative Meeting Zones",
+    "Compact Conference Settings",
+    "Integrated Tech & Storage"
   ], {
     errorMap: () => ({ message: "Please select a requirement." }),
   }),
@@ -188,8 +188,8 @@ export function QuoteForm() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="Dining Tables & Chairs">Casual Dining Tables</SelectItem>
-                          <SelectItem value="Booth & Lounge Seating">Booth & Lounge Seating</SelectItem>
+                          <SelectItem value="Dining Tables & Chairs">Dining Tables & Chairs</SelectItem>
+                          <SelectItem value="Booth & Sofa Seating">Booth & Sofa Seating</SelectItem>
                           <SelectItem value="Outdoor & Patio Furniture">Outdoor & Patio Furniture</SelectItem>
                           
                         </SelectContent>
